@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#078"
+    android:orientation="vertical"
+    tools:context="com.linear_layout.devix.linearlayout.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="#121"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/TXA"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight=".1"
+            android:background="#941"
+            android:gravity="center"
+            android:text="A1"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/TXB"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight=".1"
+            android:background="#971"
+            android:gravity="center"
+
+            android:text="A2"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#118"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/TXC"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="#B43104"
+                android:gravity="center"
+                android:text="A3"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/TXD"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#0B610B"
+                android:gravity="center"
+                android:text="A4"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/TXE"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="5dp"
+        android:background="#810E"
+        android:gravity="center"
+        android:text="TEXTO UNO"
+        android:textColor="#000"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/TXF"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginRight="150dp"
+        android:background="#154"
+        android:gravity="center"
+        android:text="TEXTO DOS"
+        android:textColor="#000"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/TXG"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="40dp"
+        android:background="#741"
+        android:gravity="center"
+        android:text="TEXTO TRES"
+        android:textColor="#000"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
